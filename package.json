@@ -1,0 +1,33 @@
+{
+  "name": "react-ggrtss",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@azure/cosmos": "2.0.2",
+    "events": "3.0.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "net": "1.0.2",
+    "querystring": "0.2.0",
+    "react": "16.5.0",
+    "react-dom": "16.5.0",
+    "string_decoder": "1.1.1",
+    "tls": "0.0.1",
+    "url": "0.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
