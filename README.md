@@ -1,5 +1,6 @@
-# react-cosmos-db-js-sdk-sample
-React Cosmos DB JS SDK 2.0 Sample
+# React Cosmos DB JS SDK 2.0 Sample
+
+This is a sample built to showcase the use of latest Cosmos DB Javascript SDK v2.0 . We will be using a simple react application with static page serving using [serve] npm module. 
 
 ### Install Cosmos DB JS SDK 2.0
 ```
