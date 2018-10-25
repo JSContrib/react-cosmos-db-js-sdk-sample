@@ -1,3 +1,6 @@
+Build status
+[![Build Status](https://dev.azure.com/nithinmohantk-ghub/react-cosmos-db-js-sdk-sample/_apis/build/status/JSContrib.react-cosmos-db-js-sdk-sample)](https://dev.azure.com/nithinmohantk-ghub/react-cosmos-db-js-sdk-sample/_build/latest?definitionId=1)
+
 # React Cosmos DB JS SDK 2.0 Sample
 
 This is a sample built to showcase the use of latest Cosmos DB Javascript SDK v2.0 . We will be using a simple react application with static page serving using [serve] npm module. 
