@@ -1,6 +1,6 @@
 {
-  "name": "react-ggrtss",
-  "version": "0.0.0",
+  "name": "react-cosmos-db-js-sdk-sample",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@azure/cosmos": "2.0.2",
