@@ -2,14 +2,18 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
-//const cosmos = require('@azure/cosmos');
+const cosmos = require('@azure/cosmos');
+const CosmosClient = require('@azure/cosmos').CosmosClient;
+const config = require('./config');
+const url = require('url');
 
 class App extends Component {
+  
   
   constructor() {
     super();
     this.state = {
-      name: 'React'
+      name: 'Cosmos DB'
     };
   }
 
@@ -18,7 +22,7 @@ class App extends Component {
       <div>
         <Hello name={this.state.name} />
         <p>
-          Start editing to see some magic happen :)
+          Hello Cosmos DB - v2 JS SDK - Sample
         </p>
       </div>
     );
@@ -26,3 +30,5 @@ class App extends Component {
 }
 
 render(<App />, document.getElementById('root'));
+
+module.exports = config;
